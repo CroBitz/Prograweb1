@@ -15,7 +15,7 @@ nav {background-color: #198064;}
 section{background-color: #ffffff3a;}
 footer{background-color: rgba(58, 25, 241, 0);}
 
-#perfil {
+#CuadroDestacado {
     border-left: 1px solid #000;
     display: flex;
     margin: 15px;
