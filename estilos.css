@@ -25,13 +25,32 @@ h1 {
 #contenedor{
     width: 80%;
     height: 500px;
-    margin: 50px auto;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+#ArtistaDestacado1{
+
+    display: inline-block;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 17%;
+    padding: 1%;
+    background: lightgray;
+    border: rgb(70, 66, 67);
+}
+#ArtistaDestacado2{
+    border: rgb(65, 82, 65);
+    display: inline-block;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 17%;
+    padding: 1%;
+    background: lightgray;
+}
 #artistaDestacado {
     width: 200px;
     height: 200px;
@@ -39,7 +58,20 @@ h1 {
     margin: 30px;
 }
 
+#Boton{
+    border: rgb(0, 0, 0);
+    background: rgb(143, 212, 143);
+}
 
+#FotoPerfilDestacado{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+#Letras{
+    text-align: left;
+}
 
 
 

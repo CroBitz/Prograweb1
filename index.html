@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="es">
-<!--probando jose salas-->
 
 <head>
   <!-- Required meta tags -->
@@ -66,79 +65,85 @@
       </nav>
   </header>
 
+  <h1>Arte Destacado</h1>
   <!--Carrusel de imagenes boostrap-->
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div class="carousel-item active" data-interval="10000">
         <a href="ProductosDestacados1.html">
-          <img src="Imagenes/Pantalla Principal/carrusel1.jpg" class="d-block w-100" alt="Cuadro destacado"
-            width="450vw" height="550vw">
-        </a>
+        <img src="Imagenes/Pantalla Principal/carrusel1.jpg" class="d-block w-100" alt="Inti Castro" width="450px" height="500px"></a>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" data-interval="2000">
         <a href="ProductosDestacados2.html">
-          <img src="Imagenes/Pantalla Principal/carrusel 2.png" class="d-block w-100" alt="Mas vendido" width="450vw"
-            height="550vw">
-        </a>
+        <img src="Imagenes/Pantalla Principal/carrusel 2.png" class="d-block w-100" alt="..." width="450px" height="500px"></a>
       </div>
       <div class="carousel-item">
         <a href="ProductosDestacados3.html">
-          <img src="Imagenes/Pantalla Principal/carrusel 3.jpg" class="d-block w-100" alt="Mas vendido" width="450vw"
-            height="550vw">
-        </a>
+        <img src="Imagenes/Pantalla Principal/carrusel 3.jpg" class="d-block w-100" alt="..." width="450px" height="500px"></a> 
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
   </div>
 
-  <h1>Artistas Destacados</h1>
-  <div class="contenedor">
+    <h1>Artistas Destacados</h1>
+    <div id="ArtistaDestacado1">
+      <div id="FotoPerfilDestacado">
+        <a href="PerfilKrishna.html">
+        <img src="Imagenes/Pantalla Principal/krishna jara.jpg" width="200px" height="350px">
+        </a>
+      </div>
+      <div id="Letras">
+          <p>
+            <b><br>Nombre: </b><a href="PerfilKrishna.html"> Krishna Jara</a><br>
+            <br> <br>
+            <b>    Edad: </b> 21 Años <br>
+            <br> <br>
+            <b>    Tecnica favorito: </b> Ilustracion Digital <br>
+            <br> <br>
+            <b>    Nota: </b> Arte ofrece la promesa de plenitud interior
+          </p>
+      </div>
+    </div>
+    <div id="ArtistaDestacado2">
+      <div id= "FotoPerfilDestacado" >
+        <a href="PerfilCristian.html"><img src="Imagenes/Pantalla Principal/cristian.jpg"></a>
+      </div>
+      <div id="Letras">
+        <p>
+          <b><br>Nombre: </b><a href="PerfilCristian.html"> Cristian Aguirre</a><br>
+          <br> <br>
+          <b>    Edad: </b> 27 Años <br>
+          <br> <br>
+          <b>    Tecnica favorito: </b> Ilustracion Digital <br>
+          <br> <br>
+          <b>    Nota: </b> “El arte celebra a la humanidad en vez de manipularla.” – Keith Haring
+        </p>
+      </div>
+    </div>
 
-    <table border="1"> </table>
-    <caption><img src="Imagenes/Pantalla Principal/cristian.jpg" height="270 vw" width="270vw"></caption>
-    <a href=""></a>
-    <tr>Nombre: </tr>
-    <td>Cristian Aguirre</td>
-    <tr>Edad: </tr>
-    <td>24 Años</td>
-    <tr>Tecnica usada: </tr>
-    <td>Oleo en tela</td>
-    <tr>Nota extra: </tr>
-    <td>El arte debe consolar al perturbado y perturbar al cómodo</td>
-    <caption><img src="Imagenes/Pantalla Principal/krishna jara.jpg" height="470 vw" width="270vw"></caption>
-    <tr>Nombre:</tr>
-    <td>Krishna Jara</td>
-    <tr>Edad: </tr>
-    <td>21 años</td>
-    <tr>Tecnica: </tr>
-    <td>Ilustracion Digital</td>
-    <tr>Nota extra: </tr>
-    <td>Arte ofrece la promesa de plenitud interior</td>
-
-  </div>
 
 
-
-
-  <footer id=pie_principal>
-    <img src="Imagenes/Pantalla Principal/logo.png" height="55vw" width="55vw">
-    <small>Contactos</small>
-    <small>Celular: 988087975 </small>
-    <small>Telefono fijo: 224213146</small>
-    <a href="https://www.facebook.com/" target="_blank">
+    <footer id= pie_principal>
+      <img src="Imagenes/Pantalla Principal/logo.png" height="55vw" width="55vw">
+      <small>Contactos</small>   
+      <small>Celular: 988087975 </small>
+      <small>Telefono fijo: 224213146</small>
+      <a href="https://www.facebook.com/" target="_blank">
       <img src="Imagenes/Pantalla Principal/face logo.png" width="50vw" height="50vw" id="facebook">
-    </a>
-    <a href="https://www.instagram.com/" target="_blank">
-      <img src="Imagenes/Pantalla Principal/insta logo.png" width="50vw" height="50vw" id="instagram">
-    </a>
-  </footer>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">  
+      <img src="Imagenes/Pantalla Principal/insta logo.png" width="50vw" height="50vw" id= "instagram">
+      </a>
+    </footer>   
+
+         
 
 
 
