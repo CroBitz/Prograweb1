@@ -40,7 +40,7 @@ h1 {
     margin-right: 17%;
     padding: 1%;
     background: lightgray;
-    border: rgb(70, 66, 67);
+    border: rgb(255, 254, 254);
 }
 #ArtistaDestacado2{
     border: rgb(65, 82, 65);
@@ -49,7 +49,7 @@ h1 {
     margin-left: 10%;
     margin-right: 17%;
     padding: 1%;
-    background: lightgray;
+    background: rgb(255, 254, 254);
 }
 #artistaDestacado {
     width: 200px;

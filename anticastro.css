@@ -30,7 +30,7 @@ footer{background-color: rgba(58, 25, 241, 0);}
     margin-left: 10%;
     margin-right: 17%;
     padding: 1%;
-    background: lightgray;
+    background: rgb(245, 243, 243);
     border: rgb(70, 66, 67);
 }
 
@@ -51,7 +51,7 @@ h2 { font: bold 50px "anton", sans-serif; text-align: left;}
 
 
 #pie_principal {clear: both; text-align: left; border: 5px #2c2b2b5b;
-    padding: 10px; background: rgb(70, 66, 67); color: #fff;
+    padding: 10px; background: rgb(90, 86, 87); color: #fff;
     }
 #facebook, #instagram{
     float: left;}
