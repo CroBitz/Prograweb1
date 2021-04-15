@@ -23,6 +23,22 @@ footer{background-color: rgba(58, 25, 241, 0);}
     color: rgb(43, 40, 40);
 }
 
+#ArtistaDestacado1{
+
+    display: inline-block;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 17%;
+    padding: 1%;
+    background: lightgray;
+    border: rgb(70, 66, 67);
+}
+
+#Letras{
+    text-align: left;
+    margin-left: 5px;
+}
+
 h1 { font: bold 50px "anton", sans-serif; text-align: left;}
 h2 { font: bold 50px "anton", sans-serif; text-align: left;}
 
