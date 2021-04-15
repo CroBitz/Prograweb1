@@ -30,16 +30,17 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    overflow: hidden;
 }
 
-#artistaDestacado {
+#ArtistaDestacado {
     width: 200px;
-    height: 200px;
+    height: 150px;
     padding: 5px;
     margin: 30px;
+    display: inline-block;
+    display: flex;
 }
-
-
 
 
 
