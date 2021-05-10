@@ -17,10 +17,14 @@
   <title>Grupo Cero</title>
 
   <!--Estilos-->
+  <link rel = "preconnect" href = "https://fonts.gstatic.com">
+  <script src="https://kit.fontawesome.com/cb0043138a.js" crossorigin="anonymous"></script>
+  <link href = "https://fonts.googleapis.com/css2? family = Indie + Flower & display = swap" rel = "hoja de estilo">
+
   <link rel="Stylesheet" href="css/estilos.css">
 </head>
 
-<body>
+<body class="">
   <!--Menu con buscador bootstrap-->
   <header>
     <div id="Contenedor">
@@ -57,7 +61,13 @@
               <a class="nav-link" href="Contactos.html" tabindex="-1" aria-disabled="true">Contactanos</a>
             </li>
           </ul>
+           <!--Boton de Modo noche--> 
+          <button class="switch" id="switch" onsubmit="return false;">
+            <span><i class="fas fa-sun"></i></span>
+            <span><i class="fas fa-moon"></i></span>
+          </button>
           <form class="form-inline my-2 my-lg-0">
+            <!--Buscador-->
             <input class="form-control mr-sm-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
           </form>
@@ -65,7 +75,7 @@
       </nav>
   </header>
 
-  <h1>Arte Destacado</h1>
+  <h1 class="titulo">Arte Destacado</h1>
   <!--Carrusel de imagenes boostrap-->
   <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -93,7 +103,7 @@
   </div>
 
 <!--NuevoArtistaDestacado-->
-<h1>Aritstas Destacados</h1>
+<h1 class="titulo">Aritstas Destacados</h1>
 <div class="container">
   <!--Box1-->
   <div class="col_third">
@@ -107,6 +117,7 @@
       </div>
       <div class="back">
         <div class="box2">
+          <br>
           <a href="PerfilKrishna.html">
           <h2>Krishna Jara</h2>
           </a>
@@ -134,6 +145,7 @@
     <div class="back">
       <div class="box2">
         <a href="">
+        <br>  
         <h2>Genesis Rivera</h2>
         </a>
         <h3>21 Años</h3>
@@ -160,6 +172,7 @@
     <div class="back">
       <div class="box2">
         <a href="">
+        <br>
         <h2>Jean Alarcon</h2>
         </a>
         <h3>25 Años</h3>
@@ -175,13 +188,23 @@
 </div>
 </div>
 
-<h1>¿Quienes Somos?</h1>
+<!--Quienes somos-->
+<div class="cont">
+  <div class="texto">
+  <a href="QuienesSomos.html">
+  <h6>Conocenos</h6>
+  </a>
+  </div>
+  <div class="cont-video">
+    <video src="Imagenes/Pantalla Principal/Quienes Somos.mp4" muted autoplay loop width="100%" height="100%"></video>
+  </div>
+</div>
 
 
 
 
 
-    <footer id= pie_principal>
+    <footer class="pie_principal">
       <img src="Imagenes/Pantalla Principal/logo.png" height="55vw" width="55vw">
       <small>Contactos</small>   
       <small>Celular: 988087975 </small>
@@ -212,6 +235,7 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
   </div>
+
+  <script src="js/Index.js"></script>
 </body>
-<script src="js/Index.js"></script>
 </html>

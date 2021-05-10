@@ -3,11 +3,17 @@ header, section, footer, aside, nav, article, figure
 {display: block;}
 
 /*Fondo de la pagina*/
-body {background-color: #eaf5f2;
+body {
+	background-color: #eaf5f2;
     font-family:Arial, Helvetica, sans-serif ;
     text-align: center;
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+	overflow-x: hidden;}
+
+	body.dark{
+		background: rgb(36, 35, 35);
+	}
 
 /*Estructura de la pagina*/
 header {background-color: #eaf5f2;}
@@ -16,13 +22,34 @@ section{background-color: #ffffff3a;}
 footer{background-color: rgba(58, 25, 241, 0);}
 
 h1 {
-    background-color: rgba(70, 66, 67);
-    color: rgb(248, 241, 241);
+    background-color: #53805a;
+    color: rgb(32, 29, 29);
     height: 100%;
 }
 
+body.dark .titulo{
+	background: #232925;
+	color: #fff;
+}
+
 h2 {
-    color: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    color: rgb(225, 255, 255);
+}
+
+h5 {
+    color: rgb(225, 255, 255);
+}
+
+h6{
+	font-family: 'Indie Flower', cursiva;
 }
 #contenedor{
     display: flex;
@@ -75,17 +102,20 @@ h2 {
 
 
 #navbar {background-color: #490e0e83;
-    height: 50%;
+    height: 100%;
     border: 0px solid rgba(255, 255, 255, 0.658);
     padding: 0px;
 }
 
-
-#pie_principal {clear: both; text-align: left; border: 5px #2c2b2b5b;
-    padding: 10px; background: rgb(70, 66, 67); color: #fff;
+.pie_principal {clear: both; text-align: left; border: 1px #2c2b2b5b;
+    padding: 10px; background: #53805a; color: #fff;
     }
 #facebook, #instagram{
     float: right;
+}
+
+body.dark .pie_principal{
+	background: #232925;
 }
 
 /*flip*/
@@ -188,7 +218,7 @@ h2 {
 	-webkit-border-radius: 10px;
 }
 .box2{
-	background-color: #f3d1fa;
+	background-color: #29232b;
 	width: 300px;
 	height: 400px;
 	margin: 0;
@@ -198,6 +228,91 @@ h2 {
 	-webkit-border-radius: 10px;
 }
 
+body.dark .col_third .box2{
+	background: #476451 ;
+}
+
 .container{
     display: flex;
+}
+
+
+/*Quienes somos*/
+
+.cont {
+	height: 100;
+
+}
+.texto {
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	right: 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+ }
+
+h6 {
+font-size: block;
+font-weight: 900;
+z-index: 100;
+margin-bottom: 30px;
+color: fff;
+
+ }
+
+h6::after{
+	display: block;
+	width: 30%;
+	height: 10px;
+	content: "";
+	margin: auto;
+
+ }
+
+ /*Modo Oscuro*/
+
+.switch {
+	background: #343d6b;
+	border-radius: 1000px;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	display: flex;
+	outline: none;
+}
+
+.switch::after{
+	content: "";
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: #eaf5f2;
+	top: 0;
+	left: 0;
+	right: unset;
+	border-radius: 100px;
+	transition: .3s ease all;
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.switch.active{
+	background: orange;
+	color: black;
+}
+
+.switch.active::after{
+	left: unset;
+	right: 0;
+}
+
+.switch span {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	background: none;
+	color: #fff;
 }
