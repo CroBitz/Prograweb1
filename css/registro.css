@@ -9,6 +9,10 @@ body {background-color: #eaf5f2;
     background-repeat: no-repeat;
     background-size: cover;}
 
+    body.dark{
+		background: rgb(36, 35, 35);
+	}
+
 /*Estructura de la pagina*/
 header {background-color: #eaf5f2;}
 nav {background-color: #198064;}
@@ -23,20 +27,17 @@ footer{background-color: rgba(58, 25, 241, 0);}
     color: rgb(43, 40, 40);
 }
 
-#ArtistaDestacado1{
-
-    display: inline-block;
-    display: flex;
-    margin-left: 10%;
-    margin-right: 17%;
-    padding: 1%;
-    background: rgb(245, 243, 243);
-    border: rgb(70, 66, 67);
+body.dark .datos{
+    color: #fff;
 }
 
 #Letras{
     text-align: left;
     margin-left: 5px;
+}
+
+body.dark #Letras{
+    color: #fff;
 }
 
 h1 { font: bold 50px "anton", sans-serif; text-align: left;}
@@ -55,6 +56,10 @@ h2 { font: bold 50px "anton", sans-serif; text-align: left;}
     }
 #facebook, #instagram{
     float: left;}
+
+body.dark .pie_principal{
+    background: #232925;
+}    
 
     /*Modo Oscuro*/
 

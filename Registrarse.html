@@ -16,7 +16,9 @@
     <title>Grupo Cero</title>
 
     <!--Estilos-->
-    <link rel="Stylesheet" href="css/estilos.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/cb0043138a.js" crossorigin="anonymous"></script>
+    <link rel="Stylesheet" href="css/registro.css">
 </head>
 
 <body>
@@ -55,6 +57,11 @@
                         <a class="nav-link" href="Contactos.html" tabindex="-1" aria-disabled="true">Contactanos</a>
                     </li>
                 </ul>
+                <!--Boton de Modo noche--> 
+                     <button class="switch" id="switch" onsubmit="return false;">
+                     <span><i class="fas fa-sun"></i></span>
+                     <span><i class="fas fa-moon"></i></span>
+                      </button>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
@@ -63,10 +70,10 @@
         </nav>
     </header>
 
-    <div class="container-fluid"></div>
+    <div class="container-fluid">
     <div class="row">
-        <div class="col-5"></div>
-        <form>
+        <div class="col-5">
+        <form class="datos">
             <div class="form-group">
                 <div class="form-group col-md-6">
                     <label for="inputEmail4">Correo Electronico</label>
@@ -113,11 +120,14 @@
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Registrar</button>
-        </form>
-
-
+                    </form>
+                    </div>
+                    </div>
+                    </div>
     </div>
-
+    </div>
+    </div>
+    
 
 
 
@@ -153,7 +163,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-
+    </div>
+    <script src="js/Index.js"></script>
 </body>
 
 </html>
