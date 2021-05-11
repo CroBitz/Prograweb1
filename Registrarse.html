@@ -70,47 +70,45 @@
         </nav>
     </header>
 
+
     <div class="container-fluid">
     <div class="row">
         <div class="col-5">
-        <form class="datos">
+        <form class="datos"> 
             <div class="form-group">
-                <div class="form-group col-md-6">
+                <div class="form-group">
                     <label for="inputEmail4">Correo Electronico</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                    <input type="email" name="email" class="form-control" id="inputEmail4"
+                    placeholder="Ej: grupoCero2021@gmail.com" pattern="">
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group">
                     <label for="inputPassword4">Contraseña</label>
-                    <input type="password" class="form-control" id="inputPassword4">
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Contraseña" pattern="[a-z]{6,16}">
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputAddress">Direccion</label>
                 <input type="text" class="form-control" id="inputAddress"
-                    placeholder="Avenida Alameda Interseccion con">
+                    placeholder="Ej: Avenida, ciudad, distrito">
             </div>
             <div class="form-group">
-                <label for="inputAddress2">Numero/Edficio</label>
-                <input type="text" class="form-control" id="inputAddress2"
-                    placeholder="Departamento, piso, o detalles etc">
+                <label for="inpuntCity">ciudad</label>
+                <input type="city" class="form-control" id="inputCity"
+                    placeholder="Ej: valparaiso, santiago, viña del mar">
             </div>
             <div class="form-group">
-                <div class="form-group col-md-6">
-                    <label for="inputCity">Ciudad</label>
-                    <input type="text" class="form-control" id="inputCity">
-                </div>
                 <div class="form-group">
-                    <div class="form-group col-md-6">
+                    <div class="form-group">
                         <label for="inputTelefono">Telefono</label>
-                        <input type="text" class="form-control" id="inputCity">
+                        <input type="number" class="form-control" id="inputTelefono" pattern="[12]"
+                        placeholder="Ej: +56912345678">
                     </div>
                     <div class="form-group">
-                        <div class="form-group col-md-6">
+                        <div class="form-group">
                             <label for="inputRut">Rut</label>
-                            <input type="text" class="form-control" id="inputCity">
+                            <input type="text" class="form-control" id="inputCity" pattern="[9]"
+                            placeholder="Ej: 19209494k">
                         </div>
-
-
                         <div class="form-group">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -131,7 +129,7 @@
 
 
 
-<footer id=pie_principal>
+<footer class=pie_principal>
     <img src="Imagenes/Pantalla Principal/logo.png" height="55vw" width="55vw">
     <small>
         Contacos:

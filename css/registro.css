@@ -31,9 +31,10 @@ body.dark .datos{
     color: #fff;
 }
 
-#Letras{
-    text-align: left;
+.datos{
+    text-align: center;
     margin-left: 5px;
+    display: block;
 }
 
 body.dark #Letras{
@@ -51,15 +52,36 @@ h2 { font: bold 50px "anton", sans-serif; text-align: left;}
 }
 
 
-#pie_principal {clear: both; text-align: left; border: 5px #2c2b2b5b;
-    padding: 10px; background: rgb(90, 86, 87); color: #fff;
+.pie_principal {clear: both; text-align: left; border: 5px #2c2b2b5b;
+    padding: 0px; background: #53805a; color: rgb(0, 0, 0);
     }
-#facebook, #instagram{
-    float: left;}
+.facebook, .instagram{
+    float: right;
+}
 
-body.dark .pie_principal{
-    background: #232925;
-}    
+
+    /*Registro*/
+
+.row {
+    background: #8fbd96;
+    padding: 30px;
+    margin: 50px;
+    top: 0px;
+    position: relative;
+}
+
+.video {
+    width: 100%;
+    position: flex;
+}
+
+body.dark .row{
+    background: #313d35;
+}
+
+body.dark .form-group{
+    color: #fff;
+}
 
     /*Modo Oscuro*/
 
@@ -105,4 +127,8 @@ body.dark .pie_principal{
 	display: block;
 	background: none;
 	color: #fff;
+}
+
+body.dark .pie_principal{
+	background: #232925;
 }

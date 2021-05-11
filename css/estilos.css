@@ -108,7 +108,7 @@ h6{
 }
 
 .pie_principal {clear: both; text-align: left; border: 1px #2c2b2b5b;
-    padding: 10px; background: #53805a; color: #fff;
+    padding: 10px; background: #53805a; color: rgb(0, 0, 0);
     }
 #facebook, #instagram{
     float: right;
@@ -116,6 +116,7 @@ h6{
 
 body.dark .pie_principal{
 	background: #232925;
+	color: #fff;
 }
 
 /*flip*/

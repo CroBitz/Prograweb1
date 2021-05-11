@@ -9,6 +9,10 @@ body {background-color: #eaf5f2;
     background-repeat: no-repeat;
     background-size: cover;}
 
+body.dark {
+  background: #232925;
+}
+
 /*Estructura de la pagina*/
 header {background-color: #eaf5f2;}
 nav {background-color: #198064;}
@@ -33,6 +37,10 @@ h6 {
     text-align: center;
     margin: 50 px;
 
+}
+
+body.dark .text-center{
+  color: #fff;
 }
 
 p {
@@ -111,5 +119,8 @@ p {
 	background: none;
 	color: #fff;
 }
-  
+
+body.dark .pie_principal{
+	background: #232925;
+}
   
