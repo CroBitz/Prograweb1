@@ -17,11 +17,11 @@
     <title>Grupo Cero</title>
 
     <!--Estilos-->
+    <link rel="Stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css">
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <script src="https://kit.fontawesome.com/cb0043138a.js" crossorigin="anonymous"></script>
     <link rel="Stylesheet" href="css/NuevaGaleria.css">
-    <!--JS-->
-    <script src="js/NuevaGaleria.js"></script>
+
 </head>
 
 <body>
@@ -73,155 +73,84 @@
 
 
   <!--Aqui comienza la nueva galeria-->
+
+
+  <div class="overlay">
+    <div class="slideshow">
+      <span class="btn_cerrar">&times;</span>
+      <div class="botones adelante">
+        <i class="mdi mdi-arrow-right-circle-outline"></i>
+      </div>
+      <div class="botones atras">
+        <i class="mdi mdi-arrow-left-circle-outline"></i>
+      </div>  
+    <img src="" alt="" id="img_slideshow">
+    <p>
+      <h1>Nombre:Rose</h1>
+
+    </p>
+    </div>
+  </div>
+
+  <section class="galeria">
+    <div class="columna">
+      <img src="Imagenes/galeria/k- rose - 35000.jpeg" alt="" data-img-mostrar="0">
+      <img src="Imagenes/galeria/G-.jpeg" alt="" data-img-mostrar="1">
+      <img src="Imagenes/galeria/j-dragon.jpeg" alt="" data-img-mostrar="2">
+      <img src="Imagenes/galeria/k-bknh coneja.jpeg" alt="" data-img-mostrar="3">
+      <img src="Imagenes/galeria/G-BirdBoy.jpeg" alt="" data-img-mostrar="4">
+      <img src="Imagenes/galeria/k-pelo verde.jpeg" alt="" data-img-mostrar="5">
+    </div>
+    <div class="columna">
+      <img src="Imagenes/galeria/j-mascara.jpeg" alt="" data-img-mostrar="6">
+      <img src="Imagenes/galeria/k-catts.jpeg" alt="" data-img-mostrar="7">
+      <img src="Imagenes/galeria/k-ditto feliz- 30000.jpg" alt="" data-img-mostrar="8">
+      <img src="Imagenes/galeria/G-el sol y la vida.jpeg" alt="" data-img-mostrar="9">
+      <img src="Imagenes/galeria/j-plantas.jpeg" alt="" data-img-mostrar="10">
+      <img src="Imagenes/galeria/k-platino.jpeg" alt="" data-img-mostrar="11">
+    </div>
+    <div class="columna">
+      <img src="Imagenes/galeria/G-gene.jpeg" alt="" data-img-mostrar="12">
+      <img src="Imagenes/galeria/j-sombrero.jpeg" alt="" data-img-mostrar="13">
+      <img src="Imagenes/galeria/k-el perro.jpeg" alt="" data-img-mostrar="14">
+      <img src="Imagenes/galeria/k-flores marchitas.jpeg" alt="" data-img-mostrar="15">
+      <img src="Imagenes/galeria/k-forever.jpeg" alt="" data-img-mostrar="16">
+      <img src="Imagenes/galeria/k-pulso rojo.jpeg" alt="" data-img-mostrar="17">
+    </div>
+    <div class="columna">
+      <img src="Imagenes/galeria/G-Mario.jpeg" alt="" data-img-mostrar="18">
+      <img src="Imagenes/galeria/J-tortuga.jpg" alt="" data-img-mostrar="19">
+      <img src="Imagenes/galeria/k-kirishima.jpeg" alt="" data-img-mostrar="20">
+      <img src="Imagenes/galeria/k-lirio-30000.jpeg" alt="" data-img-mostrar="21">
+      <img src="Imagenes/galeria/k-mi prohibicion.jpeg" alt="" data-img-mostrar="22">
+      <img src="Imagenes/galeria/k-tauro.jpeg" alt="" data-img-mostrar="23">
+    </div>
+    <div class="columna">
+      <img src="Imagenes/galeria/G-Mike.jpeg" alt="" data-img-mostrar="24">
+      <img src="Imagenes/galeria/G-Obeja.jpeg" alt="" data-img-mostrar="25">
+      <img src="Imagenes/galeria/k-pulso rojo.jpeg" alt="" data-img-mostrar="26">
+      <img src="Imagenes/galeria/k-ocaso verde - 45000.jpeg" alt="" data-img-mostrar="27">
+      <img src="Imagenes/galeria/k-pain.jpeg" alt="" data-img-mostrar="28">
+    </div>
+  </section> 
+
+
+
+
+
+
+<!--galeria antigua 2-->
+<!---
   <div class="container">
-    <!--box1-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-  <a href="#" title="">
+
+  <div class="col-xs-6 col-sm-3 hover-fade" id="Rose">
+  <a class="img" href="#" title="">
     <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
+
   </a>
   <h4 class="text-center">Rose</h4>
 </div>
-  <!--Box2-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--Box3-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--Box3-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--Box4-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--Box5-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--Box6-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--Box7-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box8-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box9-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box10-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box11-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box12-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box13-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box14-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box15-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box16-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box17-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box18-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box19-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-  <!--box20-->
-  <div class="col-xs-6 col-sm-3 hover-fade">
-    <a href="#" title="">
-      <img src="Imagenes/galeria/k- rose - 35000.jpeg" height="300px" width="300px">
-    </a>
-    <h4 class="text-center">Rose</h4>
-  </div>
-</div>
+</div>-->
 
 
 
@@ -241,8 +170,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-      </div> 
-    <script src="js/Index.js"></script>
+
+      </div>
+         <!--JS-->
+    <script src="js/NuevaGaleria.js"></script> 
 </body>
 
 </html>
