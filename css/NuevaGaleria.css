@@ -176,7 +176,7 @@ body.dark .pie_principal{
 .overlay .slideshow{
 	width: 90%;
 	height: 90%;
-	background-color: rgba(255, 255, 255, .9);
+	background-color: rgba(255, 255, 255, .7);
 	color: black;
 	position: relative;
 	display: flex;

@@ -28,7 +28,8 @@ document.addEventListener('DOMContentLoaded' , function (){
         {img:'Imagenes/galeria/G-Obeja.jpeg'},
         {img:'Imagenes/galeria/k-pulso rojo.jpeg'},
         {img:'Imagenes/galeria/k-ocaso verde - 45000.jpeg'},
-        {img:'Imagenes/galeria/k-pain.jpeg'}
+        {img:'Imagenes/galeria/k-pain.jpeg'},
+        {img:'Imagenes/galeria/K-Sisi.jpeg'}
     ]
 
     let contador = 0
