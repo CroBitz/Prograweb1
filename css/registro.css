@@ -138,3 +138,14 @@ body.dark .pie_principal{
 	background: #232925;
     transition: .7s ease all;
 }
+
+.videor{
+    width: 58%;
+    height: 500px;
+    align-self: left;
+    align-items: left;
+    text-align: center;
+    padding: 0;
+    top: 0;
+    right: 0;
+}
