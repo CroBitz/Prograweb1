@@ -9,10 +9,12 @@ body {
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-	overflow-x: hidden;}
+	overflow-x: hidden;
+	transition: .7s ease all;}
 
 	body.dark{
 		background: rgb(36, 35, 35);
+		transition: .7s ease all;
 	}
 
 /*Estructura de la pagina*/
@@ -25,11 +27,13 @@ h1 {
     background-color: rgb(63, 88, 72);
     color: rgb(255, 255, 255);
     height: 100%;
+	transition: .7s ease all;
 }
 
 body.dark .titulo{
 	background: #232925;
 	color: #fff;
+	transition: .7s ease all;
 }
 
 h2 {
@@ -117,6 +121,7 @@ h6{
 body.dark .pie_principal{
 	background: #232925;
 	color: #fff;
+	transition: .7s ease all;
 }
 
 /*flip*/
@@ -296,7 +301,7 @@ h6::after{
 	left: unset;
 	right: 0;
 	border-radius: 100px;
-	transition: .3s ease all;
+	transition: .7s ease all;
 	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
 }
 
