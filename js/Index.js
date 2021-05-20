@@ -21,13 +21,7 @@ $(document).ready(function(){
     })
 
 
-    if(localStorage.getItem('dark-mode') === 'true'){
-        document.body.classList.add('dark');
-        btnswitch.classList.add('active');    
-    } else {
-        document.body.classList.remove('dark');
-        btnswitch.classList.remove('active');
-    }
+
 
 
     
